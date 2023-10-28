@@ -1,0 +1,40 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #eacfbc;
+}
+
+figure, button, textarea {
+  display: block;
+  margin: 8px 0;
+}
+
+textarea {
+  width: 100%;
+}
+label {
+  display: block;
+  margin-bottom: .6em;
+}
+input[type=text] {
+  display: block;
+  margin: .3em 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+
+[hidden] {
+  display: none!important;
+}
+#advanced {
+  background: #f9000020;
+}
